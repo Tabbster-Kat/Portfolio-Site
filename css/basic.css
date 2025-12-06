@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Special;
+    src: url(../fonts/SpecialElite-Regular.ttf);
+}
+*{
+    font-family: Special;
+}
+button{
+    border: 1px;
+    border-radius: 1px;
+    border-color: black;
+    background-color: none;
+    color: black;
+}
+html{
+    background-color: rgb(54, 54, 54);
+}
+h1{
+    font-size: 400%;
+}
+h1,h2{
+    text-shadow: 6px 1px 3px rgb(127, 0, 159);
+}
+nav>a,nav>a:active,nav>a:visited{
+    text-decoration: none;
+    color: rgb(255, 95, 95);
+}
+nav>a:hover{
+    color: rgb(4, 255, 0);
+    background-color: white;
+    border-color: rgb(0, 160, 0);
+}
+nav>a {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    background-color: rgb(137, 9, 9);
+    padding: 10px;
+    font-size: 30px;
+    font-family: bungee;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(255, 0, 0),rgb(128, 0, 0),rgb(88, 0, 0));
+    padding: 5px;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+div>h2{
+    font-size: 200%;
+
+}
+p{
+    font-size: 150%;
+    text-shadow: 2px 1px 3px rgb(127, 0, 159);
+}
+div>a,div>a:active,div>a:visited{
+    text-shadow: 2px 1px 3px rgb(127, 0, 159);
+    font-size: 150%;
+}
+div>a:hover{
+    text-shadow: 2px 1px 10px rgb(8, 0, 108);
+}
